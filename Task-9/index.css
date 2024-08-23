@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    border: 2px solid;
+    background-color: whitesmoke;
+}
+img{
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    padding-left: 40px;
+    box-shadow: 2px  black;
+}
+h1{
+    padding: 50px;
+    text-align: center;
+    
+}
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    transform-style: preserve-3d;
+}
+
